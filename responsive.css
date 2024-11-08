@@ -1,0 +1,115 @@
+/* Responsive Design for Mobile - Max Width 550px */
+@media (max-width: 550px) {
+
+  /* General adjustments */
+  body, main {
+    padding: 0;
+    font-size: 14px;
+  }
+
+  /* Navbar adjustments */
+  nav {
+  
+    padding: 10px;
+  }
+  .logo {
+    width: 50%;
+    margin-right: 0;
+  }
+  .links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn {
+    width: 100%;
+    padding: 8px;
+  }
+  .links,
+  .btn {
+    display: none;
+  }
+  
+  /* Show the menu icon */
+  .menu-icon {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #000;
+    cursor: pointer;
+  }
+
+  /* First Section */
+  #first {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .left, .right {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+  .left h1 {
+    font-size: 32px;
+  }
+  .right img {
+    width: 100%;
+  }
+
+  /* Second Section - Cards */
+  #second .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Third Section */
+  #third .c {
+    flex-direction: column;
+  }
+  .pricing-card {
+    width: 100%;
+  }
+
+  /* Testimonials */
+  .testimonial-section h2 {
+    font-size: 28px;
+  }
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .contact-content, .contact-form {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-form {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /* Footer */
+  #footer {
+    padding: 20px;
+  }
+  .f {
+    flex-direction: column;
+    text-align: center;
+  }
+  .social {
+    margin-top: 15px;
+  }
+  .cn {
+    flex-direction: column;
+    text-align: center;
+  }
+  .b {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
